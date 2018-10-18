@@ -4,8 +4,6 @@
 :date: 2018-09-01 09:00
 :summary: Техника безопасности и эргономика.
 :status: published
-:test_link: http://judge2.vdi.mipt.ru/cgi-bin/new-register?contest_id=8001
-:test_comment: Входной контест.
 
 
 .. default-role:: code

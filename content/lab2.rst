@@ -3,7 +3,7 @@
 
 :date: 2018-10-19 09:00
 :summary: Техника безопасности и эргономика.
-:status: published
+:status: draft
 
 
 .. default-role:: code

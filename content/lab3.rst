@@ -3,7 +3,7 @@
 
 :date: 2018-09-01 09:00
 :summary: Регламент сдачи задания
-:status: published
+:status: draft
 
 
 .. default-role:: code

@@ -3,7 +3,7 @@
 
 :date: 2019-03-01 17:15
 :summary: Основы построения графиков на Matplotlib
-:status: published
+:status: draft
 
 .. default-role:: code
 .. contents:: Содержание

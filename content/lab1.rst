@@ -17,16 +17,16 @@
 ------------------
 
 1. Опасность поражения электрическим током
-++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: {filename}/images/lab1/smoking_computer.jpg
+.. image:: {static}/images/lab1/smoking_computer.jpg
    :width: 600
 
 Никогда не вскрывайте компьютер, подключенный к электрическому питанию!
 Компьютер в первую очередь является электрическим, а уже затем электронным устройством, поэтому *опасайтесь поражения электрическим током*.
 
 2. Опасность пожара
-++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~
 
 Пожар — это страшная, но реально возможная опасность. Возгорание электрической проводки — `частая причина пожара`__.
 
@@ -37,7 +37,7 @@
 Безопасность "железа"
 ---------------------
 
-.. image:: {filename}/images/lab1/broken_hdd.jpg
+.. image:: {static}/images/lab1/broken_hdd.jpg
    :width: 667
 
 Полюбите пусть не читать, но хотя бы листать документацию — это полезно по жизни.
@@ -58,6 +58,7 @@
 
 
 Что подвергается наибольшей опасности:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. позвоночник
 #. глаза
@@ -66,6 +67,7 @@
 #. вены на ногах
 
 Что поможет сохранить здоровье:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. правильная высота стола и стула
 #. удобные клавиатура и манипулятор "мышь"
@@ -97,11 +99,8 @@
 
 .. __: https://survival.kaspersky.ru/book/Survive_book.pdf
 
-Робот
-=====
-
-Введение
---------
+Исполнитель "Робот"
+===================
 
 В этой работе вам предстоит управлять учебным графическим исполнителем "Робот".
 
@@ -117,7 +116,7 @@
 
 
 Команды робота
-++++++++++++++
+--------------
 
 +------------------------+------------------------------------------------------------------------------------+
 | Команда                | Описание                                                                           |
@@ -146,11 +145,11 @@
 +------------------------+------------------------------------------------------------------------------------+
 
 Как запустить Робота
-++++++++++++++++++++
+--------------------
 
 Скачайте и разархивируйте `файлы Робота`__ в любое место в своей домашней папке.
 
-.. __: {filename}/extra/lab1/robot-tasks-master.zip
+.. __: {static}/extra/lab1/robot-tasks-master.zip
 
 Увидеть условие первой задачи можно, запустив в этой папке из консоли
 
@@ -164,7 +163,7 @@
 
 
 Как решать задачи для Робота
-++++++++++++++++++++++++++++
+----------------------------
 
 Для решения каждой задачи, если больше ничего не сказано, требуется выполнить условия:
 
@@ -196,7 +195,7 @@
        run_tasks()
 
 
-.. image:: {filename}/images/lab1/demo1.gif
+.. image:: {static}/images/lab1/demo1.gif
    :width: 251px
 
 
@@ -221,7 +220,7 @@
    if __name__ == '__main__':
        run_tasks()
 
-.. image:: {filename}/images/lab1/demo2.gif
+.. image:: {static}/images/lab1/demo2.gif
    :width: 251px
 
 
@@ -249,7 +248,7 @@
    if __name__ == '__main__':
        run_tasks()
 
-.. image:: {filename}/images/lab1/demo3.gif
+.. image:: {static}/images/lab1/demo3.gif
    :width: 251px
 
 
@@ -273,7 +272,7 @@
    if __name__ == '__main__':
        run_tasks()
 
-.. image:: {filename}/images/lab1/demo4.gif
+.. image:: {static}/images/lab1/demo4.gif
    :width: 251px
 
 Просто последовательности команд
@@ -284,7 +283,7 @@
 
 Дойти до конечной точки.
 
-.. image:: {filename}/images/lab1/task_1_1.png
+.. image:: {static}/images/lab1/task_1_1.png
    :width: 251px
 
 Задача №2: task_1_2
@@ -292,7 +291,7 @@
 
 Дойти до конечной точки, закрасить одну клетку.
 
-.. image:: {filename}/images/lab1/task_1_2.png
+.. image:: {static}/images/lab1/task_1_2.png
    :width: 251px
 
 
@@ -304,7 +303,7 @@
 
 Дойти до стены. Расстояние до стены не известно.
 
-.. image:: {filename}/images/lab1/task_3_1.png
+.. image:: {static}/images/lab1/task_3_1.png
    :width: 251px
 
 Задача №4: task_3_3
@@ -312,7 +311,7 @@
 
 С трёх сторон стены. Выйти в свободную сторону. Положение выхода не известно.
 
-.. image:: {filename}/images/lab1/task_3_3.png
+.. image:: {static}/images/lab1/task_3_3.png
    :width: 251px
 
 Циклы с условием
@@ -323,7 +322,7 @@
 
 Дойти до конца стены. Расстояние не известно.
 
-.. image:: {filename}/images/lab1/task_5_2.png
+.. image:: {static}/images/lab1/task_5_2.png
    :width: 251px
 
 Задача №6: task_5_3
@@ -331,7 +330,7 @@
 
 Дойти до конца стены. Расстояние не известно.
 
-.. image:: {filename}/images/lab1/task_5_3.png
+.. image:: {static}/images/lab1/task_5_3.png
    :width: 502px
 
 Задача №7: task_5_4
@@ -339,7 +338,7 @@
 
 Обойти стену. Размеры стены и расстояние до неё неизвестны. Стена одна.
 
-.. image:: {filename}/images/lab1/task_5_4.png
+.. image:: {static}/images/lab1/task_5_4.png
    :width: 400px
 
 Задача №8: task_5_7
@@ -347,7 +346,7 @@
 
 Выйти из коридора. Есть проёмы сверху или снизу.
 
-.. image:: {filename}/images/lab1/task_5_7.png
+.. image:: {static}/images/lab1/task_5_7.png
    :width: 502px
 
 
@@ -359,7 +358,7 @@
 
 Закрасить клетки. Расстояние до стены не известно.
 
-.. image:: {filename}/images/lab1/task_8_2.png
+.. image:: {static}/images/lab1/task_8_2.png
    :width: 502px
 
 Задача №10: task_8_3
@@ -367,7 +366,7 @@
 
 Закрасить клетки. Расстояние до стены не известно.
 
-.. image:: {filename}/images/lab1/task_8_3.png
+.. image:: {static}/images/lab1/task_8_3.png
    :width: 502px
 
 Задача №11: task_8_4
@@ -375,7 +374,7 @@
 
 Закрасить клетки. Расстояние до стены не известно.
 
-.. image:: {filename}/images/lab1/task_8_4.png
+.. image:: {static}/images/lab1/task_8_4.png
    :width: 502px
 
 Задача №12: task_8_6
@@ -383,7 +382,7 @@
 
 Закрасить клетки. Расстояние до стены не известно.
 
-.. image:: {filename}/images/lab1/task_8_6.png
+.. image:: {static}/images/lab1/task_8_6.png
    :width: 502px
 
 Задача №13: task_8_10
@@ -391,7 +390,7 @@
 
 Закрасить клетки. Расстояние до стены не известно.
 
-.. image:: {filename}/images/lab1/task_8_10.png
+.. image:: {static}/images/lab1/task_8_10.png
    :width: 502px
 
 Задача №14: task_8_11
@@ -399,7 +398,7 @@
 
 Закрасить клетки. Расстояние до стены не известно.
 
-.. image:: {filename}/images/lab1/task_8_11.png
+.. image:: {static}/images/lab1/task_8_11.png
    :width: 502px
 
 
@@ -411,7 +410,7 @@
 
 Перейти в противоположный угол. В начальный момент робот находится в углу, но не известно, в каком.
 
-.. image:: {filename}/images/lab1/task_8_21.png
+.. image:: {static}/images/lab1/task_8_21.png
    :width: 251px
 
 Задача №16: task_8_22
@@ -419,7 +418,7 @@
 
 Дойти до конца тупика. Тупик имеет форму буквы Г (влево или вправо). Размеры тупика не известны.
 
-.. image:: {filename}/images/lab1/task_8_22.png
+.. image:: {static}/images/lab1/task_8_22.png
    :width: 300px
 
 Задача №17: task_8_27
@@ -427,7 +426,7 @@
 
 Перейти на вторую закрашенную клетку. Клетка может быть как справа, так и слева.
 
-.. image:: {filename}/images/lab1/task_8_27.png
+.. image:: {static}/images/lab1/task_8_27.png
    :width: 300px
 
 Задача №18: task_8_28
@@ -435,7 +434,7 @@
 
 Выйти из ловушки. Где находится выход, не известно.
 
-.. image:: {filename}/images/lab1/task_8_28.png
+.. image:: {static}/images/lab1/task_8_28.png
    :width: 300px
 
 Задача №19: task_8_29
@@ -443,7 +442,7 @@
 
 Выйти из ловушки. Выход может находиться как справа, так и слева. Выхода может не быть, в этом случае остановиться в правом тупике.
 
-.. image:: {filename}/images/lab1/task_8_29.png
+.. image:: {static}/images/lab1/task_8_29.png
    :width: 251px
 
 
@@ -455,7 +454,7 @@
 
 Закрасить отмеченные клетки.
 
-.. image:: {filename}/images/lab1/task_4_3.png
+.. image:: {static}/images/lab1/task_4_3.png
    :width: 502px
 
 Задача №21: task_4_11
@@ -463,7 +462,7 @@
 
 Закрасить отмеченные клетки.
 
-.. image:: {filename}/images/lab1/task_4_11.png
+.. image:: {static}/images/lab1/task_4_11.png
    :width: 400px
 
 Задача №22: task_5_10
@@ -471,7 +470,7 @@
 
 Закрасить всё поле. Размеры поля неизвестны.
 
-.. image:: {filename}/images/lab1/task_5_10.png
+.. image:: {static}/images/lab1/task_5_10.png
    :width: 200px
 
 
@@ -480,7 +479,7 @@
 
 Закрасить коридоры и вернуться. Количество и длины коридоров не известны.
 
-.. image:: {filename}/images/lab1/task_6_6.png
+.. image:: {static}/images/lab1/task_6_6.png
    :width: 502px
 
 Создание и использование подпрограмм
@@ -491,7 +490,7 @@
 
 Закрасить клетки.
 
-.. image:: {filename}/images/lab1/task_2_1.png
+.. image:: {static}/images/lab1/task_2_1.png
    :width: 251px
 
 Задача №25: task_2_2
@@ -499,7 +498,7 @@
 
 Закрасить клетки.
 
-.. image:: {filename}/images/lab1/task_2_2.png
+.. image:: {static}/images/lab1/task_2_2.png
    :width: 502px
 
 Задача №26: task_2_4
@@ -507,7 +506,7 @@
 
 Закрасить клетки.
 
-.. image:: {filename}/images/lab1/task_2_4.png
+.. image:: {static}/images/lab1/task_2_4.png
    :width: 502px
 
 Использование переменных-флагов и переменных-счётчиков
@@ -522,7 +521,7 @@
 
 Закрасить клетки с увеличивающимся интервалом. Расстояние до стены не известно.
 
-.. image:: {filename}/images/lab1/task_7_5.png
+.. image:: {static}/images/lab1/task_7_5.png
    :width: 502px
 
 Задача №28: task_7_6
@@ -530,7 +529,7 @@
 
 Остановится на пятой закрашенной клетке. Количество закрашенных клеток не известно, но точно больше пяти.
 
-.. image:: {filename}/images/lab1/task_7_6.png
+.. image:: {static}/images/lab1/task_7_6.png
    :width: 502px
 
 Задача №29: task_7_7
@@ -538,7 +537,7 @@
 
 Остановится на третьей подряд закрашенной клетке. Если нет трёх подряд закрашенных клеток, то остановиться у правой стены. Расстояние до стены не известно.
 
-.. image:: {filename}/images/lab1/task_7_7.png
+.. image:: {static}/images/lab1/task_7_7.png
    :width: 502px
 
 Задача №30: task_9_3
@@ -546,7 +545,7 @@
 
 Закрасить поле «треугольниками». Размер поля не известен, но поле всегда квадратное с нечётным количество клеток по каждой стороне.
 
-.. image:: {filename}/images/lab1/task_9_3.png
+.. image:: {static}/images/lab1/task_9_3.png
    :width: 250px
 
 Задача №31: task_8_30
@@ -554,7 +553,7 @@
 
 Добраться до нижнего уровня. Количество уровней не известно. Расстояние между стенами не известно. В каждой стене точно есть ровно один проём.
 
-.. image:: {filename}/images/lab1/task_8_30.png
+.. image:: {static}/images/lab1/task_8_30.png
    :width: 502px
 
 Задача №32: task_8_18
@@ -562,7 +561,7 @@
 
 Закрасить отмеченные клетки. В регистр `ax` записать количество клеток, которые были закрашены ещё до того, как робот начал двигаться. Количество и размеры коридоров не известны.
 
-.. image:: {filename}/images/lab1/task_8_18.png
+.. image:: {static}/images/lab1/task_8_18.png
    :width: 502px
 
 

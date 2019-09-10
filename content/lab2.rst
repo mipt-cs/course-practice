@@ -3,7 +3,7 @@
 
 :date: 2019-09-09 09:00
 :summary: Использование циклов for, вложенных циклов, функций.
-:status: draft
+:status: published
 
 .. default-role:: code
 .. contents:: Содержание

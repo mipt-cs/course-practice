@@ -3,7 +3,7 @@
 
 :date: 2019-10-07 09:00
 :summary: Графическая библиотека Tkinter и простые виджеты.
-:status: publish
+:status: published
 
 .. default-role:: code
 .. contents:: Содержание

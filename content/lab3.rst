@@ -189,6 +189,9 @@ GitHub_ — крупнейший веб-сервис для хостинга IT-
 .. __: http://kpolyakov.spb.ru/loadstat.php?f=/download/pygraph.zip
 .. __: http://kpolyakov.spb.ru/dosie.htm
 
+*NB!* В библиотеке К.Ю. Полякова не соблюдаются правила Coding Style на Python. В тексте работы ниже используется версия этой библиотеки с соблюдением правил стиля `PEP 8`_
+
+.. _`PEP 8`: https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html
 
 Установка и подключение библиотеки
 ----------------------------------

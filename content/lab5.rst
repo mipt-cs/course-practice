@@ -4,6 +4,7 @@
 :date: 2019-09-30 09:00
 :summary: Анимация картины.
 :status: published
+:lecture_link: https://youtu.be/enbhOrC2Vzo
 
 .. default-role:: code
 .. contents:: Содержание

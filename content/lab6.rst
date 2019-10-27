@@ -4,6 +4,7 @@
 :date: 2019-10-07 09:00
 :summary: Графическая библиотека Tkinter и простые виджеты.
 :status: published
+:lecture_link: https://youtu.be/ppJfqW7fL80
 
 .. default-role:: code
 .. contents:: Содержание

@@ -4,6 +4,7 @@
 :date: 2019-09-23 09:00
 :summary: Рефакторинг картины.
 :status: published
+:lecture_link: https://youtu.be/kCQfhRReGTI
 
 .. default-role:: code
 .. contents:: Содержание

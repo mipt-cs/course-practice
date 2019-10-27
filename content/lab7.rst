@@ -1,9 +1,10 @@
 Игра "Поймай шарик" (часть 2)
 #############################
 
-:date: 2019-10-07 09:00
+:date: 2019-10-14 09:00
 :summary: Движение шариков и дальнейшая модернизация игры.
 :status: published
+:lecture_link: https://youtu.be/3AIALI9sY4g
 
 .. default-role:: code
 .. contents:: Содержание

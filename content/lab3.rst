@@ -4,6 +4,7 @@
 :date: 2019-09-16 09:00
 :summary: Создание картин и публикация кода в GitHub.
 :status: published
+:lecture_link: https://youtu.be/BNf6jDK2np4
 
 .. default-role:: code
 .. contents:: Содержание

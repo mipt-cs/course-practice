@@ -4,6 +4,7 @@
 :date: 2019-10-21
 :summary: Объектно-ориентированное программирование. Создание игры "Пушка".
 :status: published
+:lecture_link: https://youtu.be/904N6TyNabw
 
 .. default-role:: code
 .. contents:: Содержание

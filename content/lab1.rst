@@ -4,6 +4,7 @@
 :date: 2019-09-02 09:00
 :summary: Техника безопасности и эргономика. Управление "Роботом" простыми синтаксическими командами на Python.
 :status: published
+:lecture_link: https://youtu.be/fgf57Sa5A-A
 
 
 .. default-role:: code

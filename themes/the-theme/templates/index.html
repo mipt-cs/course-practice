@@ -8,18 +8,15 @@
             <th>#</th>
             <th>Название лабораторной работы</th>
             <th>Описание работы</th>
-            <th>Домашняя работа</th>
+            <th>Видеозапись лекции</th>
         </thead>
         <tbody>
             {% for lab in articles_page.object_list %}
             <tr>
                 <td>{{ loop.index }}</td>
                 <td><a href="{{ SITEURL }}/{{ lab.url }}"> {{ lab.title }} </a></td>
-				<td>{{ lab.summary }}</td>
-                <td>{% if lab.test_link %}
-					<a href="{{ lab.test_link }}"> 
-						{% if lab.test_comment %} {{ lab.test_comment}} {% else %} Ссылка {% endif %}
-					</a>{% endif %}</td>
+		<td>{{ lab.summary }}</td>
+		<td> {% if lab.lecture_link %}<a href="{{ lab.lecture_link }}">Лекция №{{ loop.index }}</a>{% endif %} </td>
             </tr>
             {% endfor %}
         </tbody>

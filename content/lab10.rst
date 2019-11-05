@@ -134,7 +134,7 @@
 Упражнения
 ===========
 
-Код с новой "Пушкой" лежит в репозитории https://github.com/mipt-cs/course-practice.git в папке content/code/lab10
+Код с новой "Пушкой" лежит в репозитории https://github.com/mipt-cs/course-practice.git в папке content/code/lab10 в ветке lab10.
 
 Упражнение №1
 +++++++++++++

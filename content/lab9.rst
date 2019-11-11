@@ -4,6 +4,7 @@
 :date: 2019-10-28
 :summary: Доработка игры "Пушка".
 :status: published
+:lecture_link: https://youtu.be/DxNu5A_TRN4
 
 .. default-role:: code
 .. contents:: Содержание

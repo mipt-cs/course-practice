@@ -4,6 +4,7 @@
 :date: 2019-11-11
 :summary: Командная работа. Модель движения планет по законам Кеплера. Создание модульной программы.
 :status: published
+:lecture_link: https://youtu.be/vStniIm_ovo
 
 .. default-role:: code
 .. contents:: Содержание

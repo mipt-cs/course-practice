@@ -1,10 +1,10 @@
 Исполнитель "Черепаха"
 ######################
 
-:date: 2020-09-08 09:00
+:date: 2019-09-09 09:00
 :summary: Использование циклов for, вложенных циклов, функций.
-:status: draft
-
+:status: published
+:lecture_link: https://youtu.be/15qiZJIX1YE
 
 .. default-role:: code
 .. contents:: Содержание

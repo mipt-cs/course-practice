@@ -4,6 +4,7 @@
 :date: 2020-09-08 09:00
 :summary: Использование циклов for, вложенных циклов, функций.
 :status: published
+:lecture_link: https://youtu.be/4NvtHHWoWXE
 
 
 .. default-role:: code

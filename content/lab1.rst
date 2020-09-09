@@ -4,6 +4,7 @@
 :date: 2020-09-01 09:00
 :summary: Использование Jupyter notebook, matplotlib pyplot для построения графиков функций.
 :status: published
+:lecture_link: https://youtu.be/us7y0UhTq0s
 
 .. default-role:: code
 .. contents:: Содержание

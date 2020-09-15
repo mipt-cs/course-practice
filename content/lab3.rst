@@ -3,7 +3,7 @@
 
 :date: 2020-09-15 09:00
 :summary: Ветвления, функции, декомпозиция.
-:status: publish
+:status: published
 :lecture_link: https://youtu.be/hSmvFRMm_9Q
 
 

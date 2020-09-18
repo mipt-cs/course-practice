@@ -432,7 +432,6 @@ read передать целочисленный параметр, то буде
     y += Vy*dt + ay*dt**2/2
     Vy += ay*dt
 
-.. image:: {static}/images/lab3/bouncing.gif
 
 Черепаха как объект
 ===================

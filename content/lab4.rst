@@ -257,7 +257,7 @@ GitHub и склонировали на локальный компьютер.
 
 Первое задание-картинка одинаковое у всех студентов. Нарисовать злой смайлик:
 
-.. image:: ../images/lab3/angry_smile.png
+.. image:: ../images/lab4/angry_smile.png
     :align: center
 
 
@@ -306,23 +306,23 @@ GitHub и склонировали на локальный компьютер.
 | 17_1.png_              |                        |
 +------------------------+------------------------+
 
-.. _1_1.png: ../images/lab3/1_1.png
-.. _2_1.png: ../images/lab3/2_1.png
-.. _3_1.png: ../images/lab3/3_1.png
-.. _4_1.png: ../images/lab3/4_1.png
-.. _5_1.png: ../images/lab3/5_1.png
-.. _6_1.png: ../images/lab3/6_1.png
-.. _7_1.png: ../images/lab3/7_1.png
-.. _8_1.png: ../images/lab3/8_1.png
-.. _9_1.png: ../images/lab3/9_1.png
-.. _10_1.png: ../images/lab3/10_1.png
-.. _11_1.png: ../images/lab3/11_1.png
-.. _12_1.png: ../images/lab3/12_1.png
-.. _13_1.png: ../images/lab3/13_1.png
-.. _14_1.png: ../images/lab3/14_1.png
-.. _15_1.png: ../images/lab3/15_1.png
-.. _16_1.png: ../images/lab3/16_1.png
-.. _17_1.png: ../images/lab3/17_1.png
+.. _1_1.png: ../images/lab4/1_1.png
+.. _2_1.png: ../images/lab4/2_1.png
+.. _3_1.png: ../images/lab4/3_1.png
+.. _4_1.png: ../images/lab4/4_1.png
+.. _5_1.png: ../images/lab4/5_1.png
+.. _6_1.png: ../images/lab4/6_1.png
+.. _7_1.png: ../images/lab4/7_1.png
+.. _8_1.png: ../images/lab4/8_1.png
+.. _9_1.png: ../images/lab4/9_1.png
+.. _10_1.png: ../images/lab4/10_1.png
+.. _11_1.png: ../images/lab4/11_1.png
+.. _12_1.png: ../images/lab4/12_1.png
+.. _13_1.png: ../images/lab4/13_1.png
+.. _14_1.png: ../images/lab4/14_1.png
+.. _15_1.png: ../images/lab4/15_1.png
+.. _16_1.png: ../images/lab4/16_1.png
+.. _17_1.png: ../images/lab4/17_1.png
 
 **Важно!** Результат вашей работы *обязательно* нужно отправить в свой репозиторий:
 
@@ -381,23 +381,23 @@ GitHub и склонировали на локальный компьютер.
 | 17_2.png_              |                        |
 +------------------------+------------------------+
 
-.. _1_2.png: ../images/lab3/1_2.png
-.. _2_2.png: ../images/lab3/2_2.png
-.. _3_2.png: ../images/lab3/3_2.png
-.. _4_2.png: ../images/lab3/4_2.png
-.. _5_2.png: ../images/lab3/5_2.png
-.. _6_2.png: ../images/lab3/6_2.png
-.. _7_2.png: ../images/lab3/7_2.png
-.. _8_2.png: ../images/lab3/8_2.png
-.. _9_2.png: ../images/lab3/9_2.png
-.. _10_2.png: ../images/lab3/10_2.png
-.. _11_2.png: ../images/lab3/11_2.png
-.. _12_2.png: ../images/lab3/12_2.png
-.. _13_2.png: ../images/lab3/13_2.png
-.. _14_2.png: ../images/lab3/14_2.png
-.. _15_2.png: ../images/lab3/15_2.png
-.. _16_2.png: ../images/lab3/16_2.png
-.. _17_2.png: ../images/lab3/17_2.png
+.. _1_2.png: ../images/lab4/1_2.png
+.. _2_2.png: ../images/lab4/2_2.png
+.. _3_2.png: ../images/lab4/3_2.png
+.. _4_2.png: ../images/lab4/4_2.png
+.. _5_2.png: ../images/lab4/5_2.png
+.. _6_2.png: ../images/lab4/6_2.png
+.. _7_2.png: ../images/lab4/7_2.png
+.. _8_2.png: ../images/lab4/8_2.png
+.. _9_2.png: ../images/lab4/9_2.png
+.. _10_2.png: ../images/lab4/10_2.png
+.. _11_2.png: ../images/lab4/11_2.png
+.. _12_2.png: ../images/lab4/12_2.png
+.. _13_2.png: ../images/lab4/13_2.png
+.. _14_2.png: ../images/lab4/14_2.png
+.. _15_2.png: ../images/lab4/15_2.png
+.. _16_2.png: ../images/lab4/16_2.png
+.. _17_2.png: ../images/lab4/17_2.png
 
 **Важно!** Результат вашей работы *обязательно* нужно отправить в свой репозиторий:
 

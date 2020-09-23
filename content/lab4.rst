@@ -4,6 +4,7 @@
 :date: 2020-09-22 09:00
 :summary: Создание картин и публикация кода в GitHub.
 :status: published
+:lecture_link: https://youtu.be/JudiqSMKB34
 
 .. default-role:: code
 .. contents:: Содержание

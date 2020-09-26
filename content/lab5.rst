@@ -1,9 +1,81 @@
-Документация по pygame.draw
+Картинки на выставку (часть 2)
 ##############################
 
-:date: 2020-09-22 11:00
-:summary: Документация по pygame.draw
+:date: 2020-09-29 09:00
+:summary:
 :status: draft
+
+.. default-role:: code
+.. contents:: Содержание
+
+
+Способы улучшения качества кода
+===============================
+
+При выполнении домашнего задания вы скорее всего столкнулись с проблемой
+изменений своего же собственного кода. На этом занятии вам предстоит научиться
+делать код более понятным и "гибким" — удобным для внесения изменений.
+
+Рефакторинг
+-----------
+
+**Рефа́кторинг** (англ. *refactoring*) или перепроектирование, переработка кода —
+это **процесс изменения внутренней структуры программы, не затрагивающий её
+внешнего поведения и имеющий целью облегчить понимание её работы.**
+
+В основе рефакторинга лежит последовательность небольших эквивалентных (то есть
+сохраняющих поведение) преобразований. Поскольку каждое преобразование маленькое,
+программисту легче проследить за его правильностью, и в то же время вся
+последовательность может привести к существенной перестройке программы и
+улучшению её согласованности и чёткости.
+
+Просмотрите справочный `каталог типичных малых изменений`__.
+
+.. __: https://refactoring.com/catalog/
+
+Малыми изменениями сложно изменить принципиальную архитектуру программы.
+Иногда рефакторинг запутанного проекта сделать так сложно, что проще выбросить
+написанную программу и написать её заново. Поэтому важно изначально хорошо
+спроектировать архитектуру программного продукта.
+
+Парадигма структурного программирования. Проектирование сверху-вниз
+-------------------------------------------------------------------
+
+**FIXME**
+
+
+Проработка интерфейсов функций
+------------------------------
+
+Интерфейс функции должен быть достаточно гибким, чтобы было удобно её
+использовать (некая степень универсальности), но не слишком сложным.
+
+**FIXME**
+
+
+Документация функций
+--------------------
+
+ЧТо делает функция и что значат её параметры нужно документировать....
+
+**FIXME**
+
+
+Задание недели
+==============
+
+Сделайте себе fork проекта, который даст вам преподаватель (это проект одного
+из ваших товарищей).
+
+Ваша задача сделать рефакторинг этого кода так, чтобы можно было быстро вносить
+изменения (местоположения объектов, количество, их размер).
+
+**FIXME**
+
+
+
+Документация по pygame.draw
+===========================
 
 .. raw:: html
 
@@ -26,8 +98,8 @@
        <link rel="index" title="Index" href="../genindex.html" />
        <link rel="search" title="Search" href="../search.html" />
        <link rel="next" title="pygame.event" href="event.html" />
-       <link rel="prev" title="pygame.display" href="display.html" /> 
-     </head><body>  
+       <link rel="prev" title="pygame.display" href="display.html" />
+     </head><body>
 
        <div class="document">
 
@@ -53,49 +125,49 @@
         </div>
         <hr style="color:black;border-bottom:none;border-style: dotted;border-bottom-style:none;">
         <p class="bottom"><b>Most useful stuff</b>:
-          <a href="color.html">Color</a> | 
-          <a href="display.html">display</a> | 
-          <a href="draw.html">draw</a> | 
-          <a href="event.html">event</a> | 
-          <a href="font.html">font</a> | 
-          <a href="image.html">image</a> | 
-          <a href="key.html">key</a> | 
-          <a href="locals.html">locals</a> | 
-          <a href="mixer.html">mixer</a> | 
-          <a href="mouse.html">mouse</a> | 
-          <a href="rect.html">Rect</a> | 
-          <a href="surface.html">Surface</a> | 
-          <a href="time.html">time</a> | 
-          <a href="music.html">music</a> | 
+          <a href="color.html">Color</a> |
+          <a href="display.html">display</a> |
+          <a href="draw.html">draw</a> |
+          <a href="event.html">event</a> |
+          <a href="font.html">font</a> |
+          <a href="image.html">image</a> |
+          <a href="key.html">key</a> |
+          <a href="locals.html">locals</a> |
+          <a href="mixer.html">mixer</a> |
+          <a href="mouse.html">mouse</a> |
+          <a href="rect.html">Rect</a> |
+          <a href="surface.html">Surface</a> |
+          <a href="time.html">time</a> |
+          <a href="music.html">music</a> |
           <a href="pygame.html">pygame</a>
         </p>
 
         <p class="bottom"><b>Advanced stuff</b>:
-          <a href="cursors.html">cursors</a> | 
-          <a href="joystick.html">joystick</a> | 
-          <a href="mask.html">mask</a> | 
-          <a href="sprite.html">sprite</a> | 
-          <a href="transform.html">transform</a> | 
-          <a href="bufferproxy.html">BufferProxy</a> | 
-          <a href="freetype.html">freetype</a> | 
-          <a href="gfxdraw.html">gfxdraw</a> | 
-          <a href="midi.html">midi</a> | 
-          <a href="overlay.html">Overlay</a> | 
-          <a href="pixelarray.html">PixelArray</a> | 
-          <a href="pixelcopy.html">pixelcopy</a> | 
-          <a href="sndarray.html">sndarray</a> | 
-          <a href="surfarray.html">surfarray</a> | 
+          <a href="cursors.html">cursors</a> |
+          <a href="joystick.html">joystick</a> |
+          <a href="mask.html">mask</a> |
+          <a href="sprite.html">sprite</a> |
+          <a href="transform.html">transform</a> |
+          <a href="bufferproxy.html">BufferProxy</a> |
+          <a href="freetype.html">freetype</a> |
+          <a href="gfxdraw.html">gfxdraw</a> |
+          <a href="midi.html">midi</a> |
+          <a href="overlay.html">Overlay</a> |
+          <a href="pixelarray.html">PixelArray</a> |
+          <a href="pixelcopy.html">pixelcopy</a> |
+          <a href="sndarray.html">sndarray</a> |
+          <a href="surfarray.html">surfarray</a> |
           <a href="math.html">math</a>
         </p>
 
         <p class="bottom"><b>Other</b>:
-          <a href="camera.html">camera</a> | 
-          <a href="cdrom.html">cdrom</a> | 
-          <a href="examples.html">examples</a> | 
-          <a href="fastevent.html">fastevent</a> | 
-          <a href="scrap.html">scrap</a> | 
-          <a href="tests.html">tests</a> | 
-          <a href="touch.html">touch</a> | 
+          <a href="camera.html">camera</a> |
+          <a href="cdrom.html">cdrom</a> |
+          <a href="examples.html">examples</a> |
+          <a href="fastevent.html">fastevent</a> |
+          <a href="scrap.html">scrap</a> |
+          <a href="tests.html">tests</a> |
+          <a href="touch.html">touch</a> |
           <a href="pygame.html#module-pygame.version">version</a>
         </p>
       </td>
@@ -105,7 +177,7 @@
 
          <div class="documentwrapper">
              <div class="body" role="main">
-               
+
    <div class="section" id="module-pygame.draw">
    <span id="pygame-draw"></span><dl class="definition module">
    <dt class="title module">
@@ -795,58 +867,58 @@
    <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import a library of functions called &#39;pygame&#39;</span>
    <span class="kn">import</span> <span class="nn">pygame</span>
    <span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">pi</span>
-    
+
    <span class="c1"># Initialize the game engine</span>
    <span class="n">pygame</span><span class="o">.</span><span class="n">init</span><span class="p">()</span>
-    
+
    <span class="c1"># Define the colors we will use in RGB format</span>
    <span class="n">BLACK</span> <span class="o">=</span> <span class="p">(</span>  <span class="mi">0</span><span class="p">,</span>   <span class="mi">0</span><span class="p">,</span>   <span class="mi">0</span><span class="p">)</span>
    <span class="n">WHITE</span> <span class="o">=</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span>
    <span class="n">BLUE</span> <span class="o">=</span>  <span class="p">(</span>  <span class="mi">0</span><span class="p">,</span>   <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span>
    <span class="n">GREEN</span> <span class="o">=</span> <span class="p">(</span>  <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span>   <span class="mi">0</span><span class="p">)</span>
    <span class="n">RED</span> <span class="o">=</span>   <span class="p">(</span><span class="mi">255</span><span class="p">,</span>   <span class="mi">0</span><span class="p">,</span>   <span class="mi">0</span><span class="p">)</span>
-    
+
    <span class="c1"># Set the height and width of the screen</span>
    <span class="n">size</span> <span class="o">=</span> <span class="p">[</span><span class="mi">400</span><span class="p">,</span> <span class="mi">300</span><span class="p">]</span>
    <span class="n">screen</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">set_mode</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
-    
+
    <span class="n">pygame</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">set_caption</span><span class="p">(</span><span class="s2">&quot;Example code for the draw module&quot;</span><span class="p">)</span>
-    
+
    <span class="c1">#Loop until the user clicks the close button.</span>
    <span class="n">done</span> <span class="o">=</span> <span class="kc">False</span>
    <span class="n">clock</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">Clock</span><span class="p">()</span>
-    
+
    <span class="k">while</span> <span class="ow">not</span> <span class="n">done</span><span class="p">:</span>
-    
+
        <span class="c1"># This limits the while loop to a max of 10 times per second.</span>
        <span class="c1"># Leave this out and we will use all CPU we can.</span>
        <span class="n">clock</span><span class="o">.</span><span class="n">tick</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
-        
+
        <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span> <span class="c1"># User did something</span>
            <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">QUIT</span><span class="p">:</span> <span class="c1"># If user clicked close</span>
                <span class="n">done</span><span class="o">=</span><span class="kc">True</span> <span class="c1"># Flag that we are done so we exit this loop</span>
-    
+
        <span class="c1"># All drawing code happens after the for loop and but</span>
        <span class="c1"># inside the main while done==False loop.</span>
-        
+
        <span class="c1"># Clear the screen and set the screen background</span>
        <span class="n">screen</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="n">WHITE</span><span class="p">)</span>
-    
+
        <span class="c1"># Draw on the screen a GREEN line from (0, 0) to (50, 30) </span>
        <span class="c1"># 5 pixels wide.</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">GREEN</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span><span class="mi">30</span><span class="p">],</span> <span class="mi">5</span><span class="p">)</span>
-    
+
        <span class="c1"># Draw on the screen 3 BLACK lines, each 5 pixels wide.</span>
        <span class="c1"># The &#39;False&#39; means the first and last points are not connected.</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">lines</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">BLACK</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">80</span><span class="p">],</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">90</span><span class="p">],</span> <span class="p">[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">80</span><span class="p">],</span> <span class="p">[</span><span class="mi">220</span><span class="p">,</span> <span class="mi">30</span><span class="p">]],</span> <span class="mi">5</span><span class="p">)</span>
-       
+
        <span class="c1"># Draw on the screen a GREEN line from (0, 50) to (50, 80) </span>
        <span class="c1"># Because it is an antialiased line, it is 1 pixel wide.</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">aaline</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">GREEN</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">50</span><span class="p">],[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">80</span><span class="p">],</span> <span class="kc">True</span><span class="p">)</span>
 
        <span class="c1"># Draw a rectangle outline</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">rect</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">BLACK</span><span class="p">,</span> <span class="p">[</span><span class="mi">75</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span>
-        
+
        <span class="c1"># Draw a solid rectangle</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">rect</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">BLACK</span><span class="p">,</span> <span class="p">[</span><span class="mi">150</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">20</span><span class="p">])</span>
 
@@ -856,21 +928,21 @@
                         <span class="n">border_bottom_right_radius</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
 
        <span class="c1"># Draw an ellipse outline, using a rectangle as the outside boundaries</span>
-       <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">RED</span><span class="p">,</span> <span class="p">[</span><span class="mi">225</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span> 
+       <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">RED</span><span class="p">,</span> <span class="p">[</span><span class="mi">225</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span>
 
        <span class="c1"># Draw an solid ellipse, using a rectangle as the outside boundaries</span>
-       <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">RED</span><span class="p">,</span> <span class="p">[</span><span class="mi">300</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">20</span><span class="p">])</span> 
-    
+       <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">RED</span><span class="p">,</span> <span class="p">[</span><span class="mi">300</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">20</span><span class="p">])</span>
+
        <span class="c1"># This draws a triangle using the polygon command</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">polygon</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">BLACK</span><span class="p">,</span> <span class="p">[[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">200</span><span class="p">],</span> <span class="p">[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">]],</span> <span class="mi">5</span><span class="p">)</span>
-     
+
        <span class="c1"># Draw an arc as part of an ellipse. </span>
        <span class="c1"># Use radians to determine what angle to draw.</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">arc</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">BLACK</span><span class="p">,[</span><span class="mi">210</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">125</span><span class="p">],</span> <span class="mi">0</span><span class="p">,</span> <span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">arc</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">GREEN</span><span class="p">,[</span><span class="mi">210</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">125</span><span class="p">],</span> <span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">pi</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">arc</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">BLUE</span><span class="p">,</span> <span class="p">[</span><span class="mi">210</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">125</span><span class="p">],</span> <span class="n">pi</span><span class="p">,</span><span class="mi">3</span><span class="o">*</span><span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">arc</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">RED</span><span class="p">,</span>  <span class="p">[</span><span class="mi">210</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">125</span><span class="p">],</span> <span class="mi">3</span><span class="o">*</span><span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">pi</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-       
+
        <span class="c1"># Draw a circle</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">circle</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="n">BLUE</span><span class="p">,</span> <span class="p">[</span><span class="mi">60</span><span class="p">,</span> <span class="mi">250</span><span class="p">],</span> <span class="mi">40</span><span class="p">)</span>
 
@@ -883,7 +955,7 @@
        <span class="c1"># Go ahead and update the screen with what we&#39;ve drawn.</span>
        <span class="c1"># This MUST happen after all the other drawing commands.</span>
        <span class="n">pygame</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">flip</span><span class="p">()</span>
-    
+
    <span class="c1"># Be IDLE friendly</span>
    <span class="n">pygame</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
    </pre></div>

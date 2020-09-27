@@ -2,8 +2,8 @@
 ##############################
 
 :date: 2020-09-29 09:00
-:summary:
-:status: draft
+:summary: Рефакторинг.
+:status: published
 
 .. default-role:: code
 .. contents:: Содержание

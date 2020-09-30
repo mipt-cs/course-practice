@@ -4,6 +4,7 @@
 :date: 2020-09-28 09:00
 :summary: Рефакторинг.
 :status: published
+:lecture_link: https://youtu.be/wjCEEax2ZBk
 
 .. default-role:: code
 .. contents:: Содержание

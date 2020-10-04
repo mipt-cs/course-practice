@@ -4,7 +4,6 @@
 :date: 2020-10-05 09:00
 :summary: Обработка событий в Pygame.
 :status: draft
-:lecture_link: https://youtu.be/ppJfqW7fL80
 
 .. default-role:: code
 .. contents:: Содержание
@@ -54,7 +53,7 @@
 
 В цикле используется функция `get()` модуля `event` библиотеки `pygame`  — `pygame.event.get()`. Она забирает список событий из очереди.  Основные события  — это закрытие окна, нажатие и отпускание кнопки мыши, перемещение мыши, нажатие и отпускание клавиши. Узнать, что за событие произошло, позволяет сравнение типа события `event.type` с константой из `pygame`:
 
-.. list-table:: Title
+.. list-table:: 
    :widths: 50 50
    :header-rows: 1
 
@@ -221,7 +220,7 @@ Cобытия мыши
 .. code-block:: python
 
    def click(event):
-       print(x,y,r)  
+       print(x, y, r)  
 
 Такой способ не прошел. Почему? В чем суть появившегося сообщения об ошибке, что оно означает?
 
@@ -230,16 +229,15 @@ Cобытия мыши
 .. code-block:: python
 
     def new_ball():
-        global x,y,r
-        canv.delete(ALL)
-        x = rnd(100,700)
-        y = rnd(100,500)
-        r = rnd(30,50)
+        global x, y, r
+        x = randint(100,700)
+        y = randint(100,500)
+        r = randint(30,50)
         color = COLORS[randint(0, 5)]
         circle(screen, color, (x, y), r)        
         
     def click(event):
-        print(x,y,r)   
+        print(x, y, r)   
 
 Использование global – это не самое лучшее решение. Для данной задачи больше подходит использование ООП (объектно-ориентированного подхода), но об этом позже. А пока – будем использовать global.
 

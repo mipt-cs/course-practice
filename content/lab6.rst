@@ -4,6 +4,7 @@
 :date: 2020-10-05 09:00
 :summary: Обработка событий в Pygame.
 :status: published
+:lecture_link: https://youtu.be/7uEB7QXsrFk
 
 .. default-role:: code
 .. contents:: Содержание

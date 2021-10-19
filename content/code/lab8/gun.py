@@ -66,7 +66,7 @@ class Ball:
             Возвращает True в случае столкновения мяча и цели. В противном случае возвращает False.
         """
         # FIXME
-        return False
+            return False
 
 
 class Gun:
@@ -108,7 +108,6 @@ class Gun:
 
     def draw(self):
         # FIXIT don't know how to do it
-        ...
 
     def power_up(self):
         if self.f2_on:

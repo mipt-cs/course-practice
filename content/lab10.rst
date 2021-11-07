@@ -52,10 +52,10 @@
 * `solar_input.py`_ — модуль, реализующий чтение и запись в конфигурационные файлы
 
 
-.. _`solar_objects.py`: {static}/extra/lab11/solar_objects.m.html
-.. _`solar_model.py`: {static}/extra/lab11/solar_model.m.html
-.. _`solar_vis.py`: {static}/extra/lab11/solar_vis.m.html
-.. _`solar_input.py`: {static}/extra/lab11/solar_input.m.html
+.. _`solar_objects.py`: {static}/extra/lab10/solar_objects.m.html
+.. _`solar_model.py`: {static}/extra/lab10/solar_model.m.html
+.. _`solar_vis.py`: {static}/extra/lab10/solar_vis.m.html
+.. _`solar_input.py`: {static}/extra/lab10/solar_input.m.html
 
 Распределение ролей
 -------------------
